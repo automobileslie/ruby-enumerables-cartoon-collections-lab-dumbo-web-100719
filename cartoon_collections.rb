@@ -20,7 +20,7 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  snacks.detect.cheese_types
+  snacks.detect.cheese_types {|snack|}
   
 end
 
